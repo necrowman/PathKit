@@ -1,0 +1,10 @@
+framework module Spectre {
+  umbrella header "Spectre.h"
+
+  export *
+  module * { export * }
+}
+
+module Spectre.Swift {
+    header "Spectre-Swift.h"
+}
