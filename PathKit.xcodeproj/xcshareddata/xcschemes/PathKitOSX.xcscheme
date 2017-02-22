@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "442BEA271E5C7E2400186197"
-               BuildableName = "PathKitIOS.framework"
-               BlueprintName = "PathKitIOS"
+               BlueprintIdentifier = "445B16F51E5DEEC100C1F279"
+               BuildableName = "PathKitOSX.framework"
+               BlueprintName = "PathKitOSX"
                ReferencedContainer = "container:PathKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "442BEA271E5C7E2400186197"
-            BuildableName = "PathKitIOS.framework"
-            BlueprintName = "PathKitIOS"
+            BlueprintIdentifier = "445B16F51E5DEEC100C1F279"
+            BuildableName = "PathKitOSX.framework"
+            BlueprintName = "PathKitOSX"
             ReferencedContainer = "container:PathKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "442BEA271E5C7E2400186197"
-            BuildableName = "PathKitIOS.framework"
-            BlueprintName = "PathKitIOS"
+            BlueprintIdentifier = "445B16F51E5DEEC100C1F279"
+            BuildableName = "PathKitOSX.framework"
+            BlueprintName = "PathKitOSX"
             ReferencedContainer = "container:PathKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
