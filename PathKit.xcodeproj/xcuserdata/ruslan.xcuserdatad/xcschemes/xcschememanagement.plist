@@ -2,27 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>PathKit.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>PathKitOSX.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>442BEA271E5C7E2400186197</key>
+		<key>OBJ_27</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>445B16F51E5DEEC100C1F279</key>
+		<key>OBJ_41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>OBJ_50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
