@@ -12,11 +12,11 @@
 		445B16FA1E5DEEC100C1F279 /* PathKitOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 445B16F81E5DEEC100C1F279 /* PathKitOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445B16FE1E5DEEC900C1F279 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442BEA331E5C7E3F00186197 /* PathKit.swift */; };
 		445B17011E5DEEDE00C1F279 /* SpectreOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B17001E5DEEDE00C1F279 /* SpectreOSX.framework */; };
-		445B17051E5DF2A900C1F279 /* SpectreIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B17041E5DF2A900C1F279 /* SpectreIOS.framework */; };
+		445B17211E5DF5BB00C1F279 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B17201E5DF5BB00C1F279 /* Spectre.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		442BEA281E5C7E2400186197 /* PathKitIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathKitIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		442BEA281E5C7E2400186197 /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442BEA2B1E5C7E2400186197 /* PathKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathKit.h; sourceTree = "<group>"; };
 		442BEA2C1E5C7E2400186197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442BEA331E5C7E3F00186197 /* PathKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
@@ -24,7 +24,7 @@
 		445B16F81E5DEEC100C1F279 /* PathKitOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathKitOSX.h; sourceTree = "<group>"; };
 		445B16F91E5DEEC100C1F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445B17001E5DEEDE00C1F279 /* SpectreOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpectreOSX.framework; sourceTree = "<group>"; };
-		445B17041E5DF2A900C1F279 /* SpectreIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpectreIOS.framework; path = Carthage/Build/iOS/SpectreIOS.framework; sourceTree = "<group>"; };
+		445B17201E5DF5BB00C1F279 /* Spectre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spectre.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445B17051E5DF2A900C1F279 /* SpectreIOS.framework in Frameworks */,
+				445B17211E5DF5BB00C1F279 /* Spectre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,14 +55,14 @@
 				442BEA291E5C7E2400186197 /* Products */,
 				442BEA381E5C857700186197 /* FrameworksiOS */,
 				445B16FF1E5DEEDD00C1F279 /* FrameworksOSX */,
-				445B17031E5DF2A900C1F279 /* Frameworks */,
+				445B171F1E5DF5BA00C1F279 /* FrameworksIOS */,
 			);
 			sourceTree = "<group>";
 		};
 		442BEA291E5C7E2400186197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				442BEA281E5C7E2400186197 /* PathKitIOS.framework */,
+				442BEA281E5C7E2400186197 /* PathKit.framework */,
 				445B16F61E5DEEC100C1F279 /* PathKitOSX.framework */,
 			);
 			name = Products;
@@ -113,12 +113,13 @@
 			path = Carthage/Build/Mac;
 			sourceTree = "<group>";
 		};
-		445B17031E5DF2A900C1F279 /* Frameworks */ = {
+		445B171F1E5DF5BA00C1F279 /* FrameworksIOS */ = {
 			isa = PBXGroup;
 			children = (
-				445B17041E5DF2A900C1F279 /* SpectreIOS.framework */,
+				445B17201E5DF5BB00C1F279 /* Spectre.framework */,
 			);
-			name = Frameworks;
+			name = FrameworksIOS;
+			path = Carthage/Build/iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +144,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		442BEA271E5C7E2400186197 /* PathKitIOS */ = {
+		442BEA271E5C7E2400186197 /* PathKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 442BEA301E5C7E2400186197 /* Build configuration list for PBXNativeTarget "PathKitIOS" */;
+			buildConfigurationList = 442BEA301E5C7E2400186197 /* Build configuration list for PBXNativeTarget "PathKit" */;
 			buildPhases = (
 				442BEA231E5C7E2400186197 /* Sources */,
 				442BEA241E5C7E2400186197 /* Frameworks */,
@@ -156,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = PathKitIOS;
+			name = PathKit;
 			productName = PathKit;
-			productReference = 442BEA281E5C7E2400186197 /* PathKitIOS.framework */;
+			productReference = 442BEA281E5C7E2400186197 /* PathKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		445B16F51E5DEEC100C1F279 /* PathKitOSX */ = {
@@ -211,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				442BEA271E5C7E2400186197 /* PathKitIOS */,
+				442BEA271E5C7E2400186197 /* PathKit */,
 				445B16F51E5DEEC100C1F279 /* PathKitOSX */,
 			);
 		};
@@ -464,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		442BEA301E5C7E2400186197 /* Build configuration list for PBXNativeTarget "PathKitIOS" */ = {
+		442BEA301E5C7E2400186197 /* Build configuration list for PBXNativeTarget "PathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				442BEA311E5C7E2400186197 /* Debug */,
